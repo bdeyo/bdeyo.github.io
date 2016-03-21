@@ -1,5 +1,28 @@
 /*Default*/
 
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 20px;
+	font-weight: bold;
+	overflow: hidden;		
+}
+
+nav li{
+	float: left;
+}
+
+nav li a{
+	display: inline-block;
+	color: black;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover{
+	background-color: #bfbfbf;
+}
+
 div.left-side-menu{
 	float: left;
 	padding: 15px;
