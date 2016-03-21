@@ -1,15 +1,14 @@
 /*Default*/
 
 nav ul{
+	display: inline-block;
 	list-style-type: none;
-	float: center;
 	margin: 0;
 	padding: 20px;
 	overflow: hidden;		
 }
 
 nav li a{
-	display: inline-block;
 	color: black;
 	padding: 14px 16px;
 	text-decoration: none;
