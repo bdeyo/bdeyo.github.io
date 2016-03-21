@@ -1,0 +1,9 @@
+/*Default*/
+
+div.left-side-menu{
+	float: left;
+	padding: 15px;
+	background-color: #d9d9d9;
+	width: 197px;
+	overflow: hidden;
+}
