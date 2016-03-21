@@ -2,9 +2,9 @@
 
 nav ul{
 	list-style-type: none;
+	float: center;
 	margin: 0;
 	padding: 20px;
-	font-weight: bold;
 	overflow: hidden;		
 }
 
