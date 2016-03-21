@@ -46,10 +46,11 @@ ul.left-side-menu-list li a{
 }
 
 ul.left-side-menu-list li a:hover{
-	background-color: #F88017
+	background-color: #F88017;
+	text-decoration: underline;
 }
 
-div.container{
+div.main{
 	overflow: hidden;
 	padding: 20px;
 	background-color: #bfbfbf;
