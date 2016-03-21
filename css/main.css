@@ -1,24 +1,5 @@
 /*Default*/
 
-nav ul{
-	display: inline-block;
-	list-style-type: none;
-	margin: auto;
-	padding: 20px;
-	overflow: hidden;		
-}
-
-nav li a{
-	color: black;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-
-nav li a:hover{
-	background-color: #bfbfbf;
-	font-weight: bold;
-}
-
 div.left-side-menu{
 	float: left;
 	padding: 15px;
