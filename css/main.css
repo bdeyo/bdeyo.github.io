@@ -3,7 +3,8 @@
 div.left-side-menu{
 	float: left;
 	padding: 15px;
-	background-color: #848482;
+	font-family: BodyFont;
+	background-color: #F87217;
 	width: 150px;
 	overflow: hidden;
 }
