@@ -3,7 +3,7 @@
 nav ul{
 	display: inline-block;
 	list-style-type: none;
-	margin: 0;
+	margin: auto;
 	padding: 20px;
 	overflow: hidden;		
 }
