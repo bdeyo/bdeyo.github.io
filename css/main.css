@@ -10,12 +10,9 @@ nav ul{
 }
 
 nav li a{
-	margin: auto;
-	width: 90%;
 	color: black;
 	padding: 14px 16px;
 	text-decoration: none;
-	
 }
 
 div.left-side-menu{
