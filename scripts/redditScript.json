@@ -1,4 +1,4 @@
-$.getJson(
+$.getJSON(
 	"https://www.reddit.com/r/science.json?jsonp=?",
 	function foo(data) {
 		$.each(
