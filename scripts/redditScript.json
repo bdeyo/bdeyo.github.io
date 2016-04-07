@@ -5,7 +5,7 @@ $.getJSON(
 			data.data.children.slice(0,10),
 			function (i, post) {
 				$("#reddit-content").append( '<br>' + post.data.title );
-				$("#reddit-content").append( '<br href="' + post.data.url + '">' + 'Link' );
+				$("#reddit-content").append( '<br><a href="' + post.data.url + '">' + 'Link </a>' );
 				$("#reddit-content").append( '<hr>' );
 			}
 		)
