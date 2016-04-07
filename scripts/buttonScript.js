@@ -1,3 +1,5 @@
 function myFunc(){
-			document.getElementById("test").innerHTML = "Word changed";
+			var elem = document.getElementById("test");
+			if (elem.innerHTML == "Test word") elem.innerHTML = "Word changed";
+			else elem.innerHTML = "Test word";
 		}
