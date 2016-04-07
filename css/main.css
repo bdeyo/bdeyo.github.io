@@ -1,5 +1,10 @@
 /*Default*/
 
+@font-face {
+	font-family: TitleFont;
+	src: url(MANIFESTO.ttf);
+}
+
 body{
 	background-image: url(scuffedstatic_dark.jpg); /*http://blog.hostbaby.com/2014/10/25-free-website-backgrounds/*/
 }
@@ -11,6 +16,12 @@ nav ul{
 	width: 90%;
 	padding: 20px;
 	overflow: hidden;		
+}
+
+nav li.title{
+	font-size: 30px;
+	font-family: TitleFont;
+	padding-left: 50px;
 }
 
 nav li a{
