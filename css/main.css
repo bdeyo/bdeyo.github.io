@@ -2,7 +2,7 @@
 
 @font-face {
 	font-family: TitleFont;
-	src: url(MANIFESTO.ttf);
+	src: url(MANIFESTO.ttf); /* https://www.behance.net/gallery/21065399/MANIFESTO-vector-free-font */
 }
 
 body{
@@ -12,8 +12,7 @@ body{
 nav ul{
 	display: inline-block;
 	list-style-type: none;
-	margin: auto;
-	width: 90%;
+	margin: 0;
 	padding: 20px;
 	overflow: hidden;		
 }
@@ -21,10 +20,12 @@ nav ul{
 nav li.title{
 	font-size: 30px;
 	font-family: TitleFont;
+	line-height: 0px;
 	padding-left: 50px;
 }
 
 nav li a{
+	display: inline-block;
 	color: #F87217;
 	padding: 14px 16px;
 	text-decoration: none;
